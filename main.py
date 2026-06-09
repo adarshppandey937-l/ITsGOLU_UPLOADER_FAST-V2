@@ -190,7 +190,7 @@ photozip = 'https://i.postimg.cc/XJYGNXHk/IMG-20260205-235350.png'
 
 
 # Inline keyboard for start command
-BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url="https://t.me/ITsGOLU_OWNER_BOT")]])
+BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url="https://t.me/MAHADEV_SAVE1_BOT")]])
 keyboard = InlineKeyboardMarkup(
     [
         [
