@@ -318,7 +318,7 @@ async def start(bot: Client, m: Message):
             if not is_authorized:
                 await m.reply_photo(
                     photo=photologo,
-                    caption="**Mʏ Nᴀᴍᴇ [DRM Wɪᴢᴀʀᴅ 🦋](https://t.me/+5sVMWnGxTBoyNzM1)\n\nYᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴀᴄᴄᴇꜱꜱ ᴛᴏ ᴜꜱᴇ ᴛʜɪꜱ ʙᴏᴛ\nCᴏɴᴛᴀᴄᴛ [𝐈𝐓'𝐬𝐆𝐎𝐋𝐔.™®](https://t.me/ITsGOLU_OWNER_BOT) ғᴏʀ ᴀᴄᴄᴇꜱꜱ**",
+                    caption="**Mʏ Nᴀᴍᴇ [DRM ](https://t.me/+5sVMWnGxTBoyNzM1)\n\nYᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴀᴄᴄᴇꜱꜱ ᴛᴏ ᴜꜱᴇ ᴛʜɪꜱ ʙᴏᴛ\nCᴏɴᴛᴀᴄᴛ [𝐈𝐓'𝐬𝐆𝐎𝐋𝐔.™®](https://t.me/ITsGOLU_OWNER_BOT) ғᴏʀ ᴀᴄᴄᴇꜱꜱ**",
                     reply_markup=InlineKeyboardMarkup([
     [
         InlineKeyboardButton("ₚₐₙdₑyⱼi up43.™®", url="https://t.me/+5sVMWnGxTBoyNzM1")
@@ -347,7 +347,7 @@ async def start(bot: Client, m: Message):
                 caption=f"**Mʏ ᴄᴏᴍᴍᴀɴᴅꜱ ғᴏʀ ʏᴏᴜ [{m.from_user.first_name} ](tg://settings)**\n\n{commands_list}",
                 reply_markup=InlineKeyboardMarkup([
     [
-        InlineKeyboardButton("ₚₐₙdₑyⱼi up43.™®", url="https://t.me/ITsGOLU_OWNER_BOT")
+        InlineKeyboardButton("ₚₐₙdₑyⱼi up43.™®", url="https://t.me/MAHADEV_SAVE1_BOT")
     ],
     [
         InlineKeyboardButton("ғᴇᴀᴛᴜʀᴇꜱ 🪔", callback_data="features"),
@@ -375,11 +375,11 @@ auth_filter = filters.create(auth_check_filter)
 @bot.on_message(~auth_filter & filters.private & filters.command)
 async def unauthorized_handler(client, message: Message):
     await message.reply(
-        "<b>Mʏ Nᴀᴍᴇ [DRM Wɪᴢᴀʀᴅ 🦋](https://t.me/ITsGOLU_OWNER_BOT)</b>\n\n"
+        "<b>Mʏ Nᴀᴍᴇ [DRM Wɪᴢᴀʀᴅ 🦋](https://t.me/MAHADEV_SAVE1_BOT)</b>\n\n"
         "<blockquote>You need to have an active subscription to use this bot.\n"
         "Please contact admin to get premium access.</blockquote>",
         reply_markup=InlineKeyboardMarkup([[
-            InlineKeyboardButton("💫 Get Premium Access", url="https://t.me/ITsGOLU_OWNER_BOT")
+            InlineKeyboardButton("💫 Get Premium Access", url="https://t.me/MAHADEV_SAVE1_BOT")
         ]])
     )
 
@@ -1085,7 +1085,7 @@ async def txt_handler(bot: Client, m: Message):
         f"├ 🖼️ ɪᴍᴀɢᴇꜱ : <code>{img_count}</code>\n"
         "╰────────────────────────────\n\n"
         
-        "<i>ᴇxᴛʀᴀᴄᴛᴇᴅ ʙʏ ᴡɪᴢᴀʀᴅ ʙᴏᴛꜱ 🤖</i>"
+        "<i>ᴇxᴛʀᴀᴄᴛᴇᴅ ʙʏ PANDEY JI ʙᴏᴛꜱ 🤖</i>"
     )
 )
 
@@ -1164,7 +1164,7 @@ async def details_callback(client, callback_query: CallbackQuery):
     await callback_query.answer()
     details_text = (
         "**📋 Bot Details 📋**\n\n"
-        "• 🤖 Bot Name: DRM Wizard 🦋\n"
+        "• 🤖 Bot Name: drm bot \n"
         "• 👨‍💻 Developer: ₚₐₙdₑyⱼi up43\n"
         "• 📱 Contact: @mahadev_save1_bot\n"
         "• 🔄 Version: 1.0\n"
